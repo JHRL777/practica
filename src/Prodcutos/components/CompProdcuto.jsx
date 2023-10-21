@@ -51,6 +51,13 @@ function CompProdcuto() {
               <p>Precio: ${producto.precio}</p>
               <p>Tipo: {producto.Tipo}</p>
               <p>Edad: {producto.edad}</p>
+              <p><a
+              href={`https://api.whatsapp.com/send?phone=111111111`}
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Contactar por WhatsApp
+            </a></p>
             </div>
           );
         }

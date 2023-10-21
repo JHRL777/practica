@@ -53,7 +53,7 @@
     padding: 10px;
     gap: 10px;
     border-radius: 10px;
-    cursor: pointer;
+    cursor:context-menu;
 }
 
 .prodcuto-tienda:hover{
